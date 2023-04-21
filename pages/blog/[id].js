@@ -1,6 +1,5 @@
 import Header from '../../components/Header.component'
 import Footer from '../../components/Footer.component'
-import { useEffect } from 'react'
 import ReactMarkdown from 'react-markdown'
 import Head from 'next/head'
 
@@ -11,10 +10,6 @@ export default function Post({ post }) {
       
         return date.toLocaleString('es-MX', { month: 'long' });
       }
-
-    useEffect(() => {
-        console.log(post)
-    }, [])
 
     return (
         <>

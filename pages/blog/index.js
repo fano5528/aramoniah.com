@@ -1,12 +1,8 @@
 import Header from '../../components/Header.component'
 import Footer from '../../components/Footer.component'
-import { useEffect } from 'react'
 import Head from 'next/head'
 
 export default function Blog({posts}) {
-  useEffect(() => {
-    console.log(posts);
-  }, []);
 
   function getMonthName(monthNumber) {
     const date = new Date();
