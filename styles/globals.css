@@ -30,6 +30,10 @@ body * {
   color: #4C4D48;
 }
 
+.markdown p strong {
+  font-weight: 700;
+}
+
 .markdown h1 {
   font-family: 'Libre Baskerville', serif;
   font-size: 2rem;

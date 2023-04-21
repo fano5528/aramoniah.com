@@ -72,7 +72,7 @@ export default function Blog({posts}) {
 }
 
 export async function getStaticProps({params}) {
-  const res = await fetch('https://blog.aramoniah.com/api/blog-posts?populate=Cover');
+  const res = await fetch('https://blog.aramoniah.com/api/blog-posts?populate=Cover&sort[0]=createdAt:desc');
   const posts = await res.json();
 
   return {
