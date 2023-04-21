@@ -1,6 +1,7 @@
 import Header from '../components/Header.component'
 import Footer from '../components/Footer.component'
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function AcercaDe() {
     return (
@@ -47,12 +48,12 @@ A pesar de siempre estar involucrada e interesada en temas de espiritualidad nun
             Ponte en contacto...
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
-          <a
+          <Link
             href="/contacto"
             className="font-serif bg-ow2 px-16 py-5 text-xl font-bold text-[#9EAA97] shadow-sm hover:bg-ow focus-visible:outline focus-visible:outline-2"
           >
             Contactar
-          </a>
+          </Link>
         </div>
       </div>
     </div>
