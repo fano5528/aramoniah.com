@@ -21,7 +21,7 @@ export default function Ceremonias() {
             <div className="w-full h-[500px] bg-center bg-cover" style={{backgroundImage: 'url("/ceremonias2.jpg")'}}>
                 <HeaderWhite />
             </div>
-            <div className="mt-0 block md:flex justify-between mt-24 mb-24 w-complete sm:w-complete-sm mx-auto">
+            <div className="mt-0 block md:flex justify-between mt-16 sm:mt-24 mb-24 w-complete sm:w-complete-sm mx-auto">
                 <div>
                     <h4 className="font-serif text-sm text-azul">Nuestras experiencias</h4>
                     <h1 className="font-serif text-3xl text-gris mt-3">Ceremonias y eventos</h1>
