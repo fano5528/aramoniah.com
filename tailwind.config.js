@@ -26,7 +26,7 @@ module.exports = {
       },
       width: {
         'complete-sm': 'calc(100% - 192px)',
-        'complete': 'calc(100% - 64px)',
+        'complete': 'calc(100% - 48px)',
       },
       fontFamily: {
         'sans': ["'Montserrat'", 'sans-serif'],

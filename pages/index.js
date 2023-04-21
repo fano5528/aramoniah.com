@@ -12,12 +12,12 @@ export default function Home() {
     </Head>
     <div>
       <Header />
-      <h1 className="font-serif mt-20 sm:mt-32 w-[80vw] sm:w-[65vw] mx-auto text-gris text-center text-lg sm:text-[20px] sm:leading-relaxed leading-relaxed">Te ayudamos a crear espacios de consciencia para conectar.</h1>
+      <h1 className="font-serif mt-20 sm:mt-32 w-[80vw] sm:w-[65vw] mx-auto text-gris text-center text-lg sm:text-[22px] sm:leading-relaxed leading-relaxed">Te ayudamos a crear espacios de consciencia para conectar.</h1>
       <div className="w-complete sm:w-complete-sm h-72 sm:h-[400px] bg-gris mx-auto mt-6 bg-cover bg-center opacity-90" style={{backgroundImage: "url('banner.jpg')"}}></div>
     </div>
     <div className="w-complete sm:w-complete-sm mt-20 sm:mt-28 mx-auto md:grid md:grid-cols-2 gap-12">
       <div className="flex flex-col justify-center md:order-2">
-        <h1 className="text-lg text-azul font-serif">Acerca de: Aramoniah</h1>
+        <h1 className="text-2xl text-azul font-serif">Acerca de: Aramoniah</h1>
         <p className="text-md text-gris font-sans mt-4">Aramoniah es un proyecto con la intención de crear espacios de conciencia e intención, a través de la presencia y conexión...</p>
         <Link className="hover:bg-azuloscuro bg-azul py-[14px] box-content inline-block text-white mt-4 flex items-center w-48 justify-center gap-3 font-serif text-sm" href="/acerca-de">
           Aprender más
@@ -28,7 +28,7 @@ export default function Home() {
 
       </div>
     </div>
-    <h1 className="text-center mt-20 text-xl text-azul font-serif">Nuestras experiencias</h1>
+    <h1 className="text-center mt-20 text-2xl text-azul font-serif">Nuestras experiencias</h1>
     <div className="w-complete sm:w-complete-sm mt-8 mx-auto md:grid md:grid-cols-2 gap-20">
       <div>
         <Link href="/ceremonias" className="hover:opacity-70 block w-full h-80 sm:h-[400px] bg-cover bg-center opacity-90" style={{backgroundImage: "url('ceremonia.jpg')"}}></Link>
