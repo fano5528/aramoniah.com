@@ -34,7 +34,8 @@ export default function Post({ post }) {
                 </div>
             </div>
             <div className="w-complete sm:w-complete-sm mx-auto mt-20">
-                <ReactMarkdown className="markdown" children={post.data.attributes.Content} />
+                <ReactMarkdown className="markdown">{post.data.attributes.Content}
+                </ReactMarkdown>
             </div>
             <Footer />
         </>
