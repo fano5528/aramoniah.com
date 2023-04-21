@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Footer({props}) {
     return (
         <>
-        <footer className="w-full bg-azul text-white flex flex-col justify-center items-start mt-32 py-12 sm:py-20">
+        <footer className="w-full bg-azul text-white flex flex-col justify-center items-start py-12 sm:py-20">
             <div className="sm:flex w-complete sm:w-complete-sm sm:justify-between mx-auto">
                 <Link href="/"><img src="/icon.svg" className="h-12 w-12"/></Link>
                 <div className="mt-8 sm:mt-0">

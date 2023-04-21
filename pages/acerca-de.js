@@ -48,7 +48,7 @@ A pesar de siempre estar involucrada e interesada en temas de espiritualidad nun
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
           <a
-            href="#"
+            href="/contacto"
             className="font-serif bg-ow2 px-16 py-5 text-xl font-bold text-[#9EAA97] shadow-sm hover:bg-ow focus-visible:outline focus-visible:outline-2"
           >
             Contactar

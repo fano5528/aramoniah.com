@@ -20,7 +20,7 @@ export default function Blog({posts}) {
                 <meta property="og:description" content="Blog de Aramoniah" />
             </Head>
             <Header />
-            <div className="bg-verde px-6 py-24 sm:py-32 lg:px-8 w-complete sm:w-complete-sm mx-auto shadow-fanoespecial mt-24">
+            <div className="bg-verde px-6 py-20 sm:py-32 lg:px-8 w-complete sm:w-complete-sm mx-auto shadow-fanoespecial mt-12 sm:mt-24">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-4xl font-bold font-serif tracking-tight text-white sm:text-6xl">Blog Aramoniah</h2>
         <p className="mt-6 text-lg leading-8 text-gray-300">
@@ -35,7 +35,7 @@ export default function Blog({posts}) {
           {posts.data.map((post) => (
             <article
               key={post.id}
-              className="relative isolate flex flex-col justify-end shadow-fanoespecial overflow-hidden bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
+              className="relative isolate flex flex-col justify-end shadow-fanoespecial overflow-hidden bg-gray-900 px-8 pb-8 pt-80 sm:pt-80 lg:pt-80"
             >
               <img src={"https://blog.aramoniah.com/"+post.attributes.Cover.data.attributes.url} alt="" className="absolute inset-0 -z-10 h-full w-full object-cover" />
               <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />

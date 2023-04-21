@@ -41,7 +41,7 @@ export default function Home() {
     </div>
     <div className="bg-[#9EAA97] w-complete sm:w-complete-sm mx-auto mt-20 shadow-fanoespecial">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-24">
-        <h2 className="text-3xl font-serif sm:leading-normal text-ow2 sm:text-3xl">
+        <h2 className="text-center sm:text-left text-xl font-serif sm:leading-normal text-ow2 sm:text-3xl">
           Descarga tu workbook de cortesía
           <br />
           y empieza a meditar.
@@ -49,7 +49,7 @@ export default function Home() {
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
           <a
             href="#"
-            className="font-serif bg-ow2 px-16 py-5 text-xl font-semibold text-[#9EAA97] shadow-sm hover:bg-ow focus-visible:outline focus-visible:outline-2"
+            className="mx-auto sm:mx-0 font-serif bg-ow2 px-16 py-5 text-xl font-semibold text-[#9EAA97] shadow-sm hover:bg-ow focus-visible:outline focus-visible:outline-2"
           >
             Descargar
           </a>

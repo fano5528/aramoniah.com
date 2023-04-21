@@ -22,8 +22,8 @@ export default function Post({ post }) {
                 <meta property="og:url" content={"https://aramoniah.com/blog/"+post._id} />
             </Head>
             <Header/>
-            <div className="grid grid-cols-2 gap-12 h-[450px] w-complete sm:w-complete-sm mx-auto mt-20">
-                <div className="bg-center bg-cover" style={{backgroundImage: "url('https://blog.aramoniah.com/"+post.data.attributes.Cover.data.attributes.url+"')"}}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:h-[450px] w-complete sm:w-complete-sm mx-auto mt-20">
+                <div className="bg-center bg-cover h-96 md:h-auto" style={{backgroundImage: "url('https://blog.aramoniah.com/"+post.data.attributes.Cover.data.attributes.url+"')"}}>
                 </div>
                 <div className="flex flex-col justify-center">
                     <div className="flex gap-x-2.5 flex items-center">
