@@ -29,8 +29,8 @@ module.exports = {
         'complete': 'calc(100% - 64px)',
       },
       fontFamily: {
-        'sans': ['Montserrat', 'sans-serif'],
-        'serif': ['Libre Baskerville', 'serif'],
+        'sans': ["'Montserrat'", 'sans-serif'],
+        'serif': ["'Libre Baskerville'", 'serif'],
       }
     },
   },
