@@ -37,7 +37,7 @@ export default function Ceremonias() {
                 </div>
                 <div className="h-full w-full row-start-2 row-end-4">
                     <div className="bg-[#e0e0e0] h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('despedida.jpg')"}}></div>
-                    <h1 className="mt-4 font-serif text-xl text-gris">Escritura: "conversaciones con el corazón"</h1>
+                    <h1 className="mt-4 font-serif text-xl text-gris">Escritura: conversaciones con el corazón</h1>
                 </div>
             </div>
             <div className="bg-[#9EAA97] w-complete sm:w-complete-sm mx-auto mt-20 shadow-fanoespecial">
