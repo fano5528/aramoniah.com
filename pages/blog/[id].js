@@ -27,7 +27,7 @@ export default function Post({ post }) {
                 </div>
                 <div className="flex flex-col justify-center">
                     <div className="flex gap-x-2.5 flex items-center">
-                        <img src="/carmen1.jpg" alt="" className="h-10 w-10 flex-none rounded-full bg-white/10" />
+                        <img src="https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/carmen1.jpg" alt="" className="h-10 w-10 flex-none rounded-full bg-white/10" />
                         <h4 className="text-xs text-gris">{post.data.attributes.createdAt.slice(8,10)+" de "+getMonthName(post.data.attributes.createdAt.slice(5,7))+" del "+post.data.attributes.createdAt.slice(0,4)}<br/><strong className="font-serif text-base mt-2 text-[#404040]">Carmen Aramoni</strong></h4>
                     </div>
                     <h1 className="font-serif text-3xl text-[#404040] leading-normal mt-4">{post.data.attributes.Title}</h1>

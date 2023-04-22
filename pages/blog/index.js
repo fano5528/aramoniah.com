@@ -50,7 +50,7 @@ export default function Blog({posts}) {
                     <circle cx={1} cy={1} r={1} />
                   </svg>
                   <div className="flex gap-x-2.5">
-                    <img src="/carmen1.jpg" alt="" className="h-6 w-6 flex-none rounded-full bg-white/10" />
+                    <img src="https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com//carmen1.jpg" alt="" className="h-6 w-6 flex-none rounded-full bg-white/10" />
                     Carmen Aramoni
                   </div>
                 </div>
