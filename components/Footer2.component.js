@@ -8,7 +8,7 @@ export default function Footer({props}) {
                 <Link href="/"><img src="https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/icon.svg" className="h-12 w-12"/></Link>
                 <div className="mt-8 sm:mt-0">
                     <h3 className="text-ow">Platiquemos...</h3>
-                    <h1 className="text-ow text-lg sm:text-xl font-serif mt-3 hover:text-ow2"><Link href="tel:5544074830">(55) 4407 4830</Link></h1>
+                    <h1 className="text-ow text-lg sm:text-xl font-serif mt-3 hover:text-ow2"><Link href="tel:5644074830">(56) 4407 4830</Link></h1>
                 </div>
             </div>
             <div className="mt-8 sm:mt-40 sm:flex sm:justify-between items-end w-complete sm:w-complete-sm mx-auto">
