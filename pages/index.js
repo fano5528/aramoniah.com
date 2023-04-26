@@ -17,7 +17,7 @@ export default function Home() {
     </div>
     <div className="w-complete sm:w-complete-sm mt-20 sm:mt-28 mx-auto md:grid md:grid-cols-2 gap-12">
       <div className="flex flex-col justify-center md:order-2">
-        <h1 className="text-[22px] text-azul font-serif">Acerca de Aramoniah</h1>
+        <h1 className="text-lg sm:text-[22px] text-azul font-serif">Acerca de Aramoniah</h1>
         <p className="text-md text-gris font-sans mt-4">Es un proyecto con la intención de crear espacios de conciencia e intención, a través de la presencia y conexión...</p>
         <Link className="hover:bg-azuloscuro bg-azul py-[14px] box-content inline-block text-white mt-4 flex items-center w-48 justify-center gap-3 font-serif text-sm" href="/acerca-de">
           Conocer más
