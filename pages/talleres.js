@@ -2,6 +2,7 @@ import HeaderWhite from '../components/Headerwhite.component'
 import Footer from '../components/Footer.component'
 import Link from 'next/link'
 import Head from 'next/head'
+import { Parallax } from 'react-scroll-parallax'
 
 export default function Ceremonias() {
     return (
@@ -23,22 +24,22 @@ export default function Ceremonias() {
             </div>
 
             <div className="w-complete sm:w-complete-sm mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 md:grid-rows-[400px_100px_400px]">
-                <div className="h-full w-full md:row-start-1 md:row-end-3">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/empoderamiento.jpg')"}}></div>
+                <Parallax speed={5} className="h-full w-full md:row-start-1 md:row-end-3">
+                    <div className="shadow-lg bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/empoderamiento.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-xl text-gris">Empoderamiento a través del ser</h1>
-                </div>
-                <div className="h-full w-full md:row-start-1 md:row-end-2">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/historia.jpg')"}}></div>
+                </Parallax>
+                <Parallax speed={2} className="h-full w-full md:row-start-1 md:row-end-2">
+                    <div className="shadow-lg bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/historia.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-xl text-gris">El poder de tu historia</h1>
-                </div>
-                <div className="h-full w-full md:row-start-3 md:row-end-4">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/meditacion.jpg')"}}></div>
+                </Parallax>
+                <Parallax speed={3.5} className="h-full w-full md:row-start-3 md:row-end-4">
+                    <div className="shadow-lg bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/meditacion.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-xl text-gris">Meditación</h1>
-                </div>
-                <div className="h-full w-full md:row-start-2 md:row-end-4">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/escritura.jpg')"}}></div>
+                </Parallax>
+                <Parallax speed={6} className="h-full w-full md:row-start-2 md:row-end-4">
+                    <div className="shadow-lg bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/escritura.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-xl text-gris">Escritura: conversaciones con el corazón</h1>
-                </div>
+                </Parallax>
             </div>
             <div className="bg-[#9EAA97] w-complete sm:w-complete-sm mx-auto mt-20 shadow-fanoespecial">
       <div className="mx-auto max-w-7xl px-12 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-24">
