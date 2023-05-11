@@ -2,8 +2,26 @@ import HeaderWhite from '../components/Headerwhite.component'
 import Footer from '../components/Footer.component'
 import Link from 'next/link'
 import Head from 'next/head'
+import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper';
+import { ChevronLeftIcon } from '@heroicons/react/24/solid'
+import Slider from "react-slick";
+import Nextbutton from '../components/Nextbutton.component'
+
+// Import Swiper styles
+import 'swiper/swiper-bundle.min.css'
 
 export default function Ceremonias() {
+  let swiper = useSwiper();
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
     const faqs = [
         {
             question: 'How do you make holy water?',
@@ -18,7 +36,7 @@ export default function Ceremonias() {
                 <meta name="description" content="Co-creamos ceremonias para crear espacios de conciencia en las etapas más importantes de tu vida." />
                 <meta name="keywords" content="ceremonias, eventos, baby blessing, bridal blessing, birthday blessing, despedida y honra, inicio de proyecto, unión de pareja, renovación de votos, empresariales" />
             </Head>
-            <div className="w-full h-[500px] bg-center bg-cover" style={{backgroundImage: 'url("https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/ceremonias2.jpg")'}}>
+            <div className="w-full h-[500px] bg-center bg-cover" style={{backgroundImage: 'url("/ceremonias2.jpg")'}}>
                 <HeaderWhite />
             </div>
             <div className="mt-0 block justify-between mt-16 sm:mt-24 mb-24 w-complete sm:w-complete-sm mx-auto">
@@ -31,38 +49,39 @@ export default function Ceremonias() {
 
             <div className="w-complete sm:w-complete-sm mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-20 md:grid-rows-[400px_100px_400px_400px_100px_400px]">
                 <div className="h-full w-full md:row-start-1 md:row-end-3">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/votos.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url(' /votos.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-xl text-gris">Unión / boda espiritual</h1>
                 </div>
                 <div className="h-full w-full md:row-start-1 md:row-end-2">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/ad2.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/ad2.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-xl text-gris">Cumpleaños</h1>
                 </div>
                 <div className="h-full w-full md:row-start-3 md:row-end-4">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/birthday.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/birthday.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-xl text-gris">Despedida de soltera</h1>
                 </div>
                 <div className="h-full w-full md:row-start-2 md:row-end-4">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/baby.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-xl text-gris">Blessing way (embarazo)</h1>
                 </div>
                 <div className="h-full w-full md:row-start-4 md:row-end-6">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/empresariales.jpg')"}}></div>
-                    <h1 className="mt-4 font-serif text-xl text-gris">Empresariales: conexión de equipo, empoderamiento, principio de año o fin de año, intencionando y reconociendo metas y logros</h1>
+                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/empresariales.jpg')"}}></div>
+                    <h1 className="mt-4 font-serif text-xl text-gris block">Empresariales: conexión de equipo, empoderamiento, principio de año o fin de año, intencionando y reconociendo metas y logros</h1>
                 </div>
                 <div className="h-full w-full md:row-start-4 md:row-end-5">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/union.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/union.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-xl text-gris">Conexión de amigxs</h1>
                 </div>
                 <div className="h-full w-full md:row-start-6 md:row-end-7">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/despedida.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/despedida.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-xl text-gris">Duelo, despidiendo y honrando a un ser querido</h1>
                 </div>
                 <div className="h-full w-full md:row-start-5 md:row-end-7">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/baby2.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby2.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-xl text-gris">Bienvenida bebé</h1>
                 </div>
             </div>
+
             {/*<div className="">
       <div className="mx-auto max-w-7xl px-6 sm:pt-32 lg:px-8 lg:py-40">
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
@@ -104,6 +123,32 @@ export default function Ceremonias() {
         </div>
       </div>
     </div>
+
+    
+    {/* <Swiper className="mt-24 sm:mt-32 w-complete sm:w-complete-sm"
+      modules={[Navigation, Pagination]}
+      spaceBetween={50}
+      slidesPerView={3}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide>
+        <div className="bg-[#e0e0e0] h-96 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
+        <h1 className="mt-4 font-serif text-xl text-gris">Bienvenida bebé</h1>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="bg-[#e0e0e0] h-96 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
+        <h1 className="mt-4 font-serif text-xl text-gris">Bienvenida bebé</h1>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="bg-[#e0e0e0] h-96 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
+        <h1 className="mt-4 font-serif text-xl text-gris">Bienvenida bebé</h1>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="bg-[#e0e0e0] h-96 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
+        <h1 className="mt-4 font-serif text-xl text-gris">Bienvenida bebé</h1>
+      </SwiperSlide>
+      <Nextbutton />
+  </Swiper>*/}
             <Footer />
         </>
     )
