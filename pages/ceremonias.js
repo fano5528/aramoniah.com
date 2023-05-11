@@ -47,38 +47,38 @@ export default function Ceremonias() {
                 <p className="md:w-[500px] text-gris mt-6 md:mt-6">Co-creamos ceremonias para crear espacios de conciencia en las etapas más importantes de tu vida.</p>
             </div>
 
-            <div className="w-complete sm:w-complete-sm mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-20 md:grid-rows-[400px_100px_400px_400px_100px_400px]">
-                <div className="h-full w-full md:row-start-1 md:row-end-3">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url(' /votos.jpg')"}}></div>
-                    <h1 className="mt-4 font-serif text-xl text-gris">Unión / boda espiritual</h1>
+            <div className="w-complete sm:w-complete-sm mx-auto grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
+                <div className="h-full w-full">
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url(' /votos.jpg')"}}></div>
+                    <h1 className="mt-4 font-serif text-lg text-gris">Unión / boda espiritual</h1>
                 </div>
-                <div className="h-full w-full md:row-start-1 md:row-end-2">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/ad2.jpg')"}}></div>
-                    <h1 className="mt-4 font-serif text-xl text-gris">Cumpleaños</h1>
+                <div className="h-full w-full">
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/ad2.jpg')"}}></div>
+                    <h1 className="mt-4 font-serif text-lg text-gris">Cumpleaños</h1>
                 </div>
-                <div className="h-full w-full md:row-start-3 md:row-end-4">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/birthday.jpg')"}}></div>
-                    <h1 className="mt-4 font-serif text-xl text-gris">Despedida de soltera</h1>
+                <div className="h-full w-full">
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/birthday.jpg')"}}></div>
+                    <h1 className="mt-4 font-serif text-lg text-gris">Despedida de soltera</h1>
                 </div>
-                <div className="h-full w-full md:row-start-2 md:row-end-4">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
-                    <h1 className="mt-4 font-serif text-xl text-gris">Blessing way (embarazo)</h1>
+                <div className="h-full w-full">
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/baby.jpg')"}}></div>
+                    <h1 className="mt-4 font-serif text-lg text-gris">Blessing way (embarazo)</h1>
                 </div>
-                <div className="h-full w-full md:row-start-4 md:row-end-6">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/empresariales.jpg')"}}></div>
-                    <h1 className="mt-4 font-serif text-xl text-gris block">Empresariales: conexión de equipo, empoderamiento, principio de año o fin de año, intencionando y reconociendo metas y logros</h1>
+                <div className="h-full w-full">
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/empresariales.jpg')"}}></div>
+                    <h1 className="mt-4 font-serif text-lg text-gris block">Empresariales: conexión de equipo, empoderamiento, principio de año o fin de año, intencionando y reconociendo metas y logros</h1>
                 </div>
-                <div className="h-full w-full md:row-start-4 md:row-end-5">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/union.jpg')"}}></div>
-                    <h1 className="mt-4 font-serif text-xl text-gris">Conexión de amigxs</h1>
+                <div className="h-full w-full">
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/union.jpg')"}}></div>
+                    <h1 className="mt-4 font-serif text-lg text-gris">Conexión de amigxs</h1>
                 </div>
-                <div className="h-full w-full md:row-start-6 md:row-end-7">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/despedida.jpg')"}}></div>
-                    <h1 className="mt-4 font-serif text-xl text-gris">Duelo, despidiendo y honrando a un ser querido</h1>
+                <div className="h-full w-full">
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/despedida.jpg')"}}></div>
+                    <h1 className="mt-4 font-serif text-lg text-gris">Duelo, despidiendo y honrando a un ser querido</h1>
                 </div>
-                <div className="h-full w-full md:row-start-5 md:row-end-7">
-                    <div className="bg-[#e0e0e0] h-96 md:h-[calc(100%-44px)] w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby2.jpg')"}}></div>
-                    <h1 className="mt-4 font-serif text-xl text-gris">Bienvenida bebé</h1>
+                <div className="h-full w-full">
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/baby2.jpg')"}}></div>
+                    <h1 className="mt-4 font-serif text-lg text-gris">Bienvenida bebé</h1>
                 </div>
             </div>
 
@@ -132,19 +132,19 @@ export default function Ceremonias() {
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
-        <div className="bg-[#e0e0e0] h-96 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
+        <div className="bg-[#e0e0e0] h-72 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
         <h1 className="mt-4 font-serif text-xl text-gris">Bienvenida bebé</h1>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="bg-[#e0e0e0] h-96 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
+        <div className="bg-[#e0e0e0] h-72 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
         <h1 className="mt-4 font-serif text-xl text-gris">Bienvenida bebé</h1>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="bg-[#e0e0e0] h-96 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
+        <div className="bg-[#e0e0e0] h-72 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
         <h1 className="mt-4 font-serif text-xl text-gris">Bienvenida bebé</h1>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="bg-[#e0e0e0] h-96 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
+        <div className="bg-[#e0e0e0] h-72 w-full bg-center bg-cover opacity-90" style={{backgroundImage: "url('/baby.jpg')"}}></div>
         <h1 className="mt-4 font-serif text-xl text-gris">Bienvenida bebé</h1>
       </SwiperSlide>
       <Nextbutton />
