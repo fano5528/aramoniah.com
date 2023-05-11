@@ -18,9 +18,9 @@ export default function HeaderWhite() {
     return (
         <div className="mt-8 sm:mt-12 mx-6 sm:mx-24 flex justify-between items-center top-0 absolute w-complete sm:w-complete-sm">
             <Link href="/">
-                <img src="https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/drawingwhite.svg" alt="logo" className="h-5 sm:h-8"/>
+                <img src="/drawingwhite.svg" alt="logo" className="h-5 sm:h-8"/>
             </Link>
-            <img src="https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/menuwhite.svg" alt="menu" className="h-[8px] sm:h-2 cursor-pointer" onClick={()=>{setIsOpen(true)}}/>
+            <img src="/menuwhite.svg" alt="menu" className="h-[8px] sm:h-2 cursor-pointer" onClick={()=>{setIsOpen(true)}}/>
             {transitions((style, item) => item && (
                 <animated.div className={`z-50 h-[355px] w-[calc(100vw-48px)] sm:w-[340px] absolute right-0 sm:right-0 top-0 sm:top-0 shadow-fanoespecial bg-white`} style={style}>
                     <svg onClick={()=>{ setIsOpen(false) }} className="float-right mt-6 mr-6 cursor-pointer fill-gris" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd"><path d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z"/></svg>
