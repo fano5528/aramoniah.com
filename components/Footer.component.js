@@ -9,7 +9,7 @@ export default function Footer({props}) {
             </Head>
         <footer className="w-full bg-azul text-white flex flex-col justify-center items-start mt-32 py-12 sm:py-12">
             <div className="sm:flex w-complete sm:w-complete-sm sm:justify-between mx-auto">
-                <Link href="/"><img src="/icon.svg" className="h-12 w-12"/></Link>
+                <Link href="/"><img src="https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/icon.svg" className="h-12 w-12"/></Link>
                 <div className="mt-8 sm:mt-0">
                     <h3 className="text-ow">Platiquemos...</h3>
                     <h1 className="text-ow text-lg sm:text-xl font-serif mt-3 hover:text-ow2"><Link href="tel:5644074830">(56) 4407 4830</Link></h1>

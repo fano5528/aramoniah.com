@@ -5,7 +5,7 @@ import Footer from '../components/Footer2.component'
 export default function Contacto() {
     return (
         <>
-        <div className="w-full h-[100vh] bg-center bg-cover flex flex-col items-center justify-center sm:items-start" style={{backgroundImage: 'url("/contacto.jpg")'}}>
+        <div className="w-full h-[100vh] bg-center bg-cover flex flex-col items-center justify-center sm:items-start" style={{backgroundImage: 'url("https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/contacto.jpg")'}}>
             <HeaderWhite/>
             <div className="bg-white w-[90vw] sm:w-[500px] mx-auto p-12 sm:p-16 shadow-fanoespecial mt-12 sm:mt-24">
                 <h1 className="font-serif text-azul text-xl">Informes y contrataciones</h1>

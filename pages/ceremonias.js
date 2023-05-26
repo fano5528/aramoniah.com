@@ -36,7 +36,7 @@ export default function Ceremonias() {
                 <meta name="description" content="Co-creamos ceremonias para crear espacios de conciencia en las etapas más importantes de tu vida." />
                 <meta name="keywords" content="ceremonias, eventos, baby blessing, bridal blessing, birthday blessing, despedida y honra, inicio de proyecto, unión de pareja, renovación de votos, empresariales" />
             </Head>
-            <div className="w-full h-[500px] bg-center bg-cover" style={{backgroundImage: 'url("/ceremonias2.jpg")'}}>
+            <div className="w-full h-[500px] bg-center bg-cover" style={{backgroundImage: 'url("https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/ceremonias2.jpg")'}}>
                 <HeaderWhite />
             </div>
             <div className="mt-0 block justify-between mt-16 sm:mt-24 mb-24 w-complete sm:w-complete-sm mx-auto">
@@ -49,35 +49,35 @@ export default function Ceremonias() {
 
             <div className="w-complete sm:w-complete-sm mx-auto grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
                 <div className="h-full w-full">
-                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url(' /votos.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/votos.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-lg text-gris">Unión / boda espiritual</h1>
                 </div>
                 <div className="h-full w-full">
-                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/cumpleaños.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/cumpleaños.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-lg text-gris">Cumpleaños</h1>
                 </div>
                 <div className="h-full w-full">
-                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/ad2.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/ad2.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-lg text-gris">Despedida de soltera</h1>
                 </div>
                 <div className="h-full w-full">
-                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/baby.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/baby.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-lg text-gris">Blessing way (embarazo)</h1>
                 </div>
                 <div className="h-full w-full">
-                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/empresariales.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/empresariales.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-lg text-gris block">Empresariales: conexión de equipo, empoderamiento, principio de año o fin de año, intencionando y reconociendo metas y logros</h1>
                 </div>
                 <div className="h-full w-full">
-                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/union.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/union.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-lg text-gris">Conexión de amigxs</h1>
                 </div>
                 <div className="h-full w-full">
-                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/despedida.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/despedida.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-lg text-gris">Duelo, despidiendo y honrando a un ser querido</h1>
                 </div>
                 <div className="h-full w-full">
-                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('/baby2.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/baby2.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-lg text-gris">Bienvenida bebé</h1>
                 </div>
             </div>
