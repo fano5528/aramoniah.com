@@ -53,7 +53,7 @@ export default function Ceremonias() {
                     <h1 className="mt-4 font-serif text-lg text-gris">Unión / boda espiritual</h1>
                 </div>
                 <div className="h-full w-full">
-                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/cumpleaños.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/cumple.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-lg text-gris">Cumpleaños</h1>
                 </div>
                 <div className="h-full w-full">
