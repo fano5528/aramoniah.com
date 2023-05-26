@@ -24,7 +24,7 @@ export default function Home() {
           <svg className="h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
         </Link>
       </div>
-      <div style={{backgroundImage: "url('/ad2.jpg');"}} className="md:order-1 mt-8 md:mt-0 w-full h-80 sm:h-[400px] bg-cover bg-center opacity-90">
+      <div style={{backgroundImage: "url('/final.jpg');"}} className="md:order-1 mt-8 md:mt-0 w-full h-80 sm:h-[400px] bg-cover bg-center opacity-90">
 
       </div>
     </div>

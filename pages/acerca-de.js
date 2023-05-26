@@ -38,7 +38,7 @@ A pesar de siempre estar involucrada e interesada en temas de espiritualidad nun
 
 </p>
             </div>
-            <div className="bg-cover bg-center md:col-start-2 md:col-end-3 shadow-fanoespecial h-96 md:h-auto" style={{backgroundImage: "url('/carmen2.jpg')"}}></div>
+            <div className="bg-cover bg-center md:col-start-2 md:col-end-3 shadow-fanoespecial h-96 md:h-auto" style={{backgroundImage: "url('/nhistoria.jpg')"}}></div>
         </div>
         <div className="bg-[#9EAA97] w-complete sm:w-complete-sm mx-auto mt-20 shadow-fanoespecial">
       <div className="mx-auto max-w-7xl px-12 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-24">
