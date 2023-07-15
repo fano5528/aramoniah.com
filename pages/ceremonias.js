@@ -36,7 +36,7 @@ export default function Ceremonias() {
                 <meta name="description" content="Co-creamos ceremonias para crear espacios de conciencia en las etapas más importantes de tu vida." />
                 <meta name="keywords" content="ceremonias, eventos, baby blessing, bridal blessing, birthday blessing, despedida y honra, inicio de proyecto, unión de pareja, renovación de votos, empresariales" />
             </Head>
-            <div className="w-full h-[500px] bg-center bg-cover" style={{backgroundImage: 'url("https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/talleres.jpg")'}}>
+            <div className="w-full h-[500px] bg-center bg-cover" style={{backgroundImage: 'url("https://internaut.nyc3.digitaloceanspaces.com/aramoniah.com/talleres.jpg")'}}>
                 <HeaderWhite />
             </div>
             <div className="mt-0 block justify-between mt-16 sm:mt-24 mb-24 w-complete sm:w-complete-sm mx-auto">
