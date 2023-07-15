@@ -47,12 +47,12 @@ export default function Home() {
           para empezar a meditar.
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
-          <a
-            href="#"
+          <Link
+            href="https://internaut.nyc3.digitaloceanspaces.com/aramoniah.com/Workbook%20Meditacio%CC%81n.pdf"
             className="mx-auto sm:mx-0 font-serif bg-ow2 px-16 py-5 text-xl font-semibold text-[#9EAA97] shadow-sm hover:bg-ow focus-visible:outline focus-visible:outline-2"
           >
             Descargar
-          </a>
+          </Link>
         </div>
       </div>
     </div>
