@@ -1,4 +1,4 @@
-import HeaderWhite from '../components/Headerwhite.component'
+import HeaderWhite from '../components/Headerwhite2.component'
 import Footer from '../components/Footer.component'
 import Link from 'next/link'
 import Head from 'next/head'
@@ -36,7 +36,7 @@ export default function Ceremonias() {
                 <meta name="description" content="Co-creamos ceremonias para crear espacios de conciencia en las etapas más importantes de tu vida." />
                 <meta name="keywords" content="ceremonias, eventos, baby blessing, bridal blessing, birthday blessing, despedida y honra, inicio de proyecto, unión de pareja, renovación de votos, empresariales" />
             </Head>
-            <div className="w-full h-[500px] bg-center bg-cover" style={{backgroundImage: 'url("https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/talleres.jpg")'}}>
+            <div className="w-full h-[500px] bg-center bg-cover" style={{backgroundImage: 'url("https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/cursos.png")'}}>
                 <HeaderWhite />
             </div>
             <div className="mt-0 block justify-between mt-16 sm:mt-24 mb-24 w-complete sm:w-complete-sm mx-auto">
@@ -57,7 +57,7 @@ export default function Ceremonias() {
                     <h1 className="mt-4 font-serif text-lg text-gris">Cumpleaños</h1>
                 </div>
                 <div className="h-full w-full">
-                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/ad2.jpg')"}}></div>
+                    <div className="bg-[#e0e0e0] h-48 sm:h-72 w-full bg-center bg-cover opacity-90 hover:opacity-70" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/soltera.jpg')"}}></div>
                     <h1 className="mt-4 font-serif text-lg text-gris">Despedida de soltera</h1>
                 </div>
                 <div className="h-full w-full">

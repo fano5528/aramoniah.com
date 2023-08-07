@@ -13,10 +13,10 @@ export default function AcercaDe() {
         </Head>
         <Header />
         <div className="w-complete sm:w-complete-sm grid grid-cols-1 md:grid-cols-2 gap-12 mx-auto mt-20">
-            <div className="bg-cover bg-center h-96 md:col-start-1 md:col-end-3 shadow-fanoespecial flex flex-col items-center justify-center" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/adbanner.jpg')"}}>
-                <h4 className="text-ow font-sans text-sm">Acerca de</h4>
-                <h1 className="text-ow text-4xl font-serif mt-2">Aramoniah</h1>
-                <p className="text-ow mt-5 text-gris w-[80%] text-center">Es un proyecto con la intención de crear espacios de conciencia e intención, a través de la presencia y conexión...</p>
+            <div className="bg-cover bg-center h-96 md:col-start-1 md:col-end-3 shadow-fanoespecial flex flex-col items-center justify-center" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/talleres.png')"}}>
+                <h4 className="text-gris font-sans text-sm">Acerca de</h4>
+                <h1 className="text-gris text-4xl font-serif mt-2">Aramoniah</h1>
+                <p className="text-gris mt-5 w-[80%] text-center">Es un proyecto con la intención de crear espacios de conciencia e intención, a través de la presencia y conexión...</p>
             </div>
             <div className="bg-cover bg-start md:col-start-1 md:col-end-2 shadow-fanoespecial h-96 md:h-auto" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/carmen1.jpg')"}}></div>
             <div className="shadow-fanoespecial bg-white px-14 py-14">

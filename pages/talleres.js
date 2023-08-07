@@ -1,4 +1,4 @@
-import HeaderWhite from '../components/Headerwhite.component'
+import HeaderWhite from '../components/Headerwhite2.component'
 import Footer from '../components/Footer.component'
 import Link from 'next/link'
 import Head from 'next/head'
@@ -12,7 +12,7 @@ export default function Ceremonias() {
                 <meta name="description" content="Cursos y talleres enfocados al empoderamiento personal, buscando conectar con nosotros de manera real, genuina y desde la aceptación, usando el poder de nuestra historia a nuestro favor." />
                 <meta name="keywords" content="cursos, talleres, empoderamiento, historia, aceptación, empoderamiento personal, historia a nuestro favor" />
             </Head>
-            <div className="w-full h-[500px] bg-center bg-cover" style={{backgroundImage: 'url("https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/ceremonias2.jpg")'}}>
+            <div className="w-full h-[500px] bg-center bg-cover" style={{backgroundImage: 'url("https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/talleres.png")'}}>
                 <HeaderWhite />
             </div>
             <div className="mt-0 block justify-between mt-16 sm:mt-24 mb-24 w-complete sm:w-complete-sm mx-auto">
