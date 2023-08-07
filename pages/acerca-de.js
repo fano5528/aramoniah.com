@@ -28,7 +28,7 @@ Soy una persona a lo que le gusta saber de todo, desde que tengo uso de memoria 
 <br/><br/>
 Pero cuando las cosas se acomodan y llega tu momento es que la vida fluye y te pone justo en el lugar indicado.</p>
             </div>
-            <div className="bg-cover bg-center h-96 md:col-start-1 md:col-end-3 shadow-fanoespecial" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/ad6.jpg')"}}></div>
+            <div className="bg-cover bg-center h-96 md:col-start-1 md:col-end-3 shadow-fanoespecial" style={{backgroundImage: "url('https://internaut.nyc3.cdn.digitaloceanspaces.com/aramoniah.com/mano.jpg')"}}></div>
             <div className="shadow-fanoespecial bg-white px-14 py-14">
                 <h4 className="text-azul font-serif text-sm">¿Cómo empezó todo?</h4>
                 <h1 className="text-gris text-3xl font-serif mt-2">Nuestra historia</h1>
